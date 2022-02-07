@@ -7,4 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- graphical charter -->
+    <color name="kaki">#426442</color>
+    <color name="yellow">#EAD317</color>
+    <color name="red">#A10F19</color>
+    <color name="blue">#095A88</color>
+    <color name="green">#169337</color>
+    <color name="dark_grey">#3A393E</color>
 </resources>
