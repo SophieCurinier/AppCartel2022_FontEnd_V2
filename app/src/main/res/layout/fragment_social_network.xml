@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.social_network.SocialNetworkFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/buttonInstagram"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#C13584"
+        android:onClick="switchInstagram"
+        android:text="@string/instagram" />
+
+    <Button
+        android:id="@+id/buttonWebSite"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3A393E"
+        android:onClick="switchWebSite"
+        android:text="@string/web_site" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_logo"
+        app:layout_constraintDimensionRatio="h,1:1" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3b5998"
+        android:onClick="switchFacebook"
+        android:text="@string/facebook" />
+
+</FrameLayout>
