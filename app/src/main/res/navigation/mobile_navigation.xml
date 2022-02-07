@@ -22,4 +22,47 @@
         android:name="com.example.cartel2022_test.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.example.cartel2022_test.ui.map.MapFragment"
+        android:label="@string/menu_map"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.cartel2022_test.ui.contact.ContactFragment"
+        android:label="@string/menu_contact"
+        tools:layout="@layout/fragment_contact" />
+
+    <fragment
+        android:id="@+id/nav_match"
+        android:name="com.example.cartel2022_test.ui.planning.PlanningFragment"
+        android:label="@string/menu_match"
+        tools:layout="@layout/fragment_match" />
+
+    <fragment
+        android:id="@+id/nav_partner"
+        android:name="com.example.cartel2022_test.ui.partner.PartnerFragment"
+        android:label="@string/menu_partner"
+        tools:layout="@layout/fragment_partner" />
+
+    <fragment
+        android:id="@+id/nav_social_network"
+        android:name="com.example.cartel2022_test.ui.planning.PlanningFragment"
+        android:label="@string/menu_socialNetwork"
+        tools:layout="@layout/fragment_social_network" />
+
+    <fragment
+        android:id="@+id/nav_party"
+        android:name="com.example.cartel2022_test.ui.party.PartyFragment"
+        android:label="@string/menu_party"
+        tools:layout="@layout/fragment_party" />
+
+    <fragment
+        android:id="@+id/nav_sport"
+        android:name="com.example.cartel2022_test.ui.sport.SportFragment"
+        android:label="@string/menu_sport"
+        tools:layout="@layout/fragment_sport" />
+
 </navigation>
